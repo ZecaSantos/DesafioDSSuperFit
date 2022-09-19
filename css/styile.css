@@ -23,13 +23,9 @@ header h2 {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;    
-    align-items: center;   
+    align-items: center;
+    color:#FFFFFF;   
        
-}
-
-.container{
-    color:#FFFFFF;
-    
 }
 
 .container-header {
@@ -132,4 +128,51 @@ header h2 {
 
 }
 
+.rodape {
+    background-color: black;
+    padding: 60px 0 60px 0 ;   
+}
+
+.rodape p {
+    font-family: open sans, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.footer-content{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;    
+    align-items: center;
+    color:#FFFFFF; 
+    display: flex;
+    flex-direction: column;
+}
+
+.iten-footer {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.iten-footer-sociais {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sociais {
+    display: flex;
+    align-items: center;
+
+}
+
+.iten-footer-sociais{
+    margin-top: 20px;
+}
+
+
+    
 
