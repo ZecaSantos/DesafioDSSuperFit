@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
+:root{
+    --color-red:#F03C42;
+    --color-write:#fff;
+    --color-blue: #222374;
+    --color-black: black;
+
+}
+
 * {
     margin: 0;
 }
 
 header {
-    background-color: #F03C42;
+    background-color: var(--color-red);
     min-height: 100px;
     display: flex;
     align-items: center;
@@ -15,7 +23,7 @@ header {
 
 header h2 {
     font-family:'open sans', sans-serif;
-    color: #FFFFFF;
+    color: var(--color-write);
     font-size: 18px;
 }
 
@@ -24,7 +32,7 @@ header h2 {
     max-width: 960px;
     margin: 0 auto;    
     align-items: center;
-    color:#FFFFFF;   
+    color:var(--color-write);   
        
 }
 
@@ -47,7 +55,7 @@ header h2 {
 }
 
 .conheca {
-    background-color: #222374;
+    background-color: var(--color-blue);
     padding: 20px 20px;
 
     
@@ -57,14 +65,14 @@ header h2 {
     font-family: open sans, sans-serif;
     font-size: 32px;
     font-weight: bold;
-    color: #FFFFFF;
+    color: var(--color-write);
     margin-bottom: 40px;
 }
 
 .cards {
     background-color: #cccccc;
     padding: 20px 20px;
-    color: black;
+    color: var(--color-black);
     font-family: open sans, sans-serif;
     line-height: 19,07;
     font-size: 14px;
@@ -77,14 +85,14 @@ header h2 {
     font-family: open sans, sans-serif;
     font-size: 20px;
     font-weight: bold;
-    color: black;
+    color: var(--color-black);
     margin-bottom: 20px;
 }
 
 .cards p {
     font-size: 14px;
     font-family: open sans, sans-serif;
-    color: black;
+    color: var(--color-black);
     font-weight: 400;
     font-style: normal;
     line-height: 19px;
@@ -92,20 +100,20 @@ header h2 {
 }
 
 .mold {
-    background-color: #FFFFFF;
+    background-color:var(--color-write);
 }
 
 .mold h1 {
     font-family: open sans, sans-serif;
     font-weight: bold;
-    color: #F03C42;
+    color: var(--color-red);
     margin:20px 0 40px 0
     
 
 }
 
 .cards2 {
-    background-color: #222374;
+    background-color: var(--color-blue);
     padding: 20px 20px;
     margin-bottom: 20px;
     border-radius: 8px;
@@ -116,7 +124,7 @@ header h2 {
     font-weight: bold;
     font-style: normal;
     line-height: 27,24;
-    color: #FFFFFF;
+    color: var(--color-write);
     margin-bottom: 20px;
 }
 
@@ -129,7 +137,7 @@ header h2 {
 }
 
 .rodape {
-    background-color: black;
+    background-color: var(--color-black);
     padding: 60px 0 60px 0 ;   
 }
 
@@ -145,7 +153,7 @@ header h2 {
     max-width: 960px;
     margin: 0 auto;    
     align-items: center;
-    color:#FFFFFF; 
+    color: var(--color-write); 
     display: flex;
     flex-direction: column;
 }
